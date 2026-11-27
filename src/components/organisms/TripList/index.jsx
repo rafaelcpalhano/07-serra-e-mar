@@ -5,7 +5,7 @@ import TripCard from "../../molecules/TripCard"
 
 export default function TripList() {
   return (
-    <section className={styles.section}>
+    <section id="destinos" className={styles.section}>
         <h2 className={styles.title}>Destinos</h2>
 
         <div className={styles.list}>
