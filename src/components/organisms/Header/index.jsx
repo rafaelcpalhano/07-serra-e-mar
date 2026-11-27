@@ -9,7 +9,7 @@ export default function Header() {
 
             <nav className={styles.nav}>
                 <a href="#destinos">Destinos</a>
-                <a href="">Contato</a>
+                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
