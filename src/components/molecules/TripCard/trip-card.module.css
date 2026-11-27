@@ -27,3 +27,15 @@
   display: flex;
   gap: 8px;
 }
+
+@media (min-width: 768px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 31%;
+  }
+}
