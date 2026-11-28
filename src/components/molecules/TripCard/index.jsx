@@ -3,7 +3,7 @@ import Price from "../../atoms/Price";
 import Button from "../../atoms/Button";
 import styles from "./trip-card.module.css";
 
-export default function TripCard({ trip }) {
+export default function TripCard({ trip, onBook }) {
   return (
     <article className={styles.card}>
       <span className={styles.emoji}>{trip.emoji}</span>
@@ -26,7 +26,7 @@ export default function TripCard({ trip }) {
 
       <Price>R$ {trip.price}</Price>
 
-      <Button>Quero ir</Button>
+      <Button onClick={onBook}>Quero ir</Button>
     </article>
   );
 }
