@@ -1,0 +1,33 @@
+.footer {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  padding: 32px 16px;
+}
+
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.copy {
+  max-width: 1120px;
+  margin: 24px auto 0;
+  color: #94a3b8;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

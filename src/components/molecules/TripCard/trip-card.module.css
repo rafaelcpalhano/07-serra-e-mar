@@ -1,0 +1,41 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.emoji {
+  font-size: 2.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  color: #0f172a;
+}
+
+.region {
+  color: #475569;
+  font-size: 0.875rem;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 31%;
+  }
+}
